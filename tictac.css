@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.box_large {
+    /* width: 300px;
+    height: 300px; */
+    padding: 20px;
+    background: black;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.box {
+    display: flex;
+    /* background-color: red; */
+    gap: 10px;
+    
+}
+span {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+#reset {
+    width: 100px;
+    height: 50px;
+    border: solid red ;
+    border-radius: 10px;
+    background: url("I-Want-You-to-Go-Away.jpg");
+    display: grid;
+    place-items: center;
+    color: black;
+}
